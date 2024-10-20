@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"untitled2\startup_stm32f427xx.o"
+"untitled2\main.o"
+"untitled2\gpio.o"
+"untitled2\tim.o"
+"untitled2\stm32f4xx_it.o"
+"untitled2\stm32f4xx_hal_msp.o"
+"untitled2\callback.o"
+"untitled2\stm32f4xx_hal_tim.o"
+"untitled2\stm32f4xx_hal_tim_ex.o"
+"untitled2\stm32f4xx_hal_rcc.o"
+"untitled2\stm32f4xx_hal_rcc_ex.o"
+"untitled2\stm32f4xx_hal_flash.o"
+"untitled2\stm32f4xx_hal_flash_ex.o"
+"untitled2\stm32f4xx_hal_flash_ramfunc.o"
+"untitled2\stm32f4xx_hal_gpio.o"
+"untitled2\stm32f4xx_hal_dma_ex.o"
+"untitled2\stm32f4xx_hal_dma.o"
+"untitled2\stm32f4xx_hal_pwr.o"
+"untitled2\stm32f4xx_hal_pwr_ex.o"
+"untitled2\stm32f4xx_hal_cortex.o"
+"untitled2\stm32f4xx_hal.o"
+"untitled2\stm32f4xx_hal_exti.o"
+"untitled2\system_stm32f4xx.o"
+--strict --scatter "untitled2\untitled2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "untitled2.map" -o untitled2\untitled2.axf
